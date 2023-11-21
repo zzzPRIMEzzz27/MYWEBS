@@ -1,0 +1,63 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  main{
+      width: 100vw;
+      height: 100vh;
+      background-image: url(/img/Misamo-2.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  nav{
+      border: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5%;
+      background-color: rgb(116, 34, 88)
+  }
+  nav h1{
+      color: rgb(184, 184, 174 );
+  }
+  
+  .nav-link ul{
+      display: flex;
+      list-style-type: none;
+  }
+  .nav-link li a{
+      text-decoration: none;
+      color: rgb(184, 184, 174);
+      margin:0 14px;
+  }
+  .main-page{
+    color: rgb(71, 7, 80);
+    margin-top: 5px;
+  }
+  .hobbies {
+    margin: 0% 14%;
+}
+.social-icons a{
+    color: 	#800080;
+    transition: color 0.6s;
+}
+.social-icons {
+    margin: 2% 30%;
+}
+.social-icons ion-icon{
+    width: 100px;
+    height: 150px;
+}
+.social-icons a:hover{
+    color: #4B0082;
+}
+.city{
+        background-color: rgb(240, 71, 255);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        
+}
